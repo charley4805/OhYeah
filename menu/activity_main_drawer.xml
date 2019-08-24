@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_lightbulb_outline_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_vehicles"
+            android:icon="@drawable/ic_directions_car_black_24dp"
+            android:title="@string/vehicles" />
+        <item
+            android:id="@+id/nav_health"
+            android:icon="@drawable/ic_healing_black_24dp"
+            android:title="@string/health" />
+        <item
+            android:id="@+id/nav_accounts"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/accounts" />
+        <item
+            android:id="@+id/nav_house"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/house"/>
+        <item
+            android:id="@+id/nav_clothes"
+            android:icon="@drawable/ic_accessibility_black_24dp"
+            android:title="@string/clothes" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_tools"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/tools" />
+            <item
+                android:id="@+id/nav_cookbook"
+                android:icon="@drawable/ic_restaurant_black_24dp"
+                android:title="@string/cookbook" />
+        </menu>
+    </item>
+
+</menu>
