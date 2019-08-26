@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Oh Yea</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_note">title activity note</string>
+    <string name="send_as_email">Send as email</string>
+    <string name="cancel">Cancel</string>
+    <string name="Make_title">Make</string>
+    <string name="vehicle_information">Vehicle Information</string>
+    <string name="title_activity_main">Oh Yeah</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="quotes">Quotes</string>
+    <string name="explore">Explore</string>
+    <string name="facts">Facts</string>
+    <string name="elements">Elements</string>
+    <string name="vehicles">Vehicles</string>
+    <string name="communicate">Communicate</string>
+    <string name="health">Health</string>
+    <string name="accounts">Accounts</string>
+    <string name="tools">Tools</string>
+    <string name="cookbook">Cookbook</string>
+    <string name="house">House</string>
+    <string name="clothes">Clothes</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="textview">TextView</string>
+    <string name="title_activity_test_nav">TestNavAct</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+</resources>
