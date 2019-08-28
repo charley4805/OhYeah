@@ -1,8 +1,7 @@
-package com.example.mynotes;
+package com.example.mynotes.VehicleNote;
 
 import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;
-
 
 
 public class DatabaseDataWorker {

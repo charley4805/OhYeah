@@ -1,4 +1,4 @@
-package com.example.mynotes;
+package com.example.mynotes.VehicleNote;
 
 import android.provider.BaseColumns;
 

@@ -1,6 +1,5 @@
-package com.example.mynotes;
+package com.example.mynotes.VehicleNote;
 
-import androidx.loader.content.Loader;
 import android.database.Cursor;
 import androidx.loader.app.LoaderManager;
 import androidx.loader.content.CursorLoader;
@@ -17,17 +16,14 @@ import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
-import android.widget.EditText;
 import android.widget.SimpleCursorAdapter;
 import java.lang.Object;
 
 
-import com.example.mynotes.NoteKeeperDatabaseContract.NoteInfoEntry;
-
-import java.util.List;
+import com.example.mynotes.VehicleNote.NoteKeeperDatabaseContract.NoteInfoEntry;
+import com.example.mynotes.R;
 
 public class NoteActivity extends AppCompatActivity
         implements LoaderManager.LoaderCallbacks<Cursor> {
@@ -312,18 +308,20 @@ public class NoteActivity extends AppCompatActivity
         } else if(id == R.id.action_save) {
             saveNote();
             finish();
+        }else if(id == R.id.action_delete) {
+            deleteNoteFromDatabase();
+            finish();
         }
-
         return super.onOptionsItemSelected(item);
     }
 
-    @Override
-    public boolean onPrepareOptionsMenu(Menu menu) {
-        MenuItem item = menu.findItem(R.id.action_save);
-        int lastNoteIndex = DataManager.getInstance().getNotes().size() - 1;
-        item.setEnabled(mNoteId < lastNoteIndex);
-        return super.onPrepareOptionsMenu(menu);
-    }
+  //  @Override
+  //  public boolean onPrepareOptionsMenu(Menu menu) {
+  //      MenuItem item = menu.findItem(R.id.action_save);
+  //      int lastNoteIndex = DataManager.getInstance().getNotes().size() - 1;
+  //      item.setEnabled(mNoteId < lastNoteIndex);
+  //      return super.onPrepareOptionsMenu(menu);
+ //   }
 
 
 

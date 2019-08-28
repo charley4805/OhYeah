@@ -1,7 +1,8 @@
-package com.example.mynotes;
+package com.example.mynotes.VehicleNote;
 
 import android.content.Context;
-import android.content.Intent;
+
+import com.example.mynotes.R;
 import com.google.android.material.snackbar.Snackbar;
 import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;

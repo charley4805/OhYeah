@@ -1,10 +1,10 @@
-package com.example.mynotes;
+package com.example.mynotes.VehicleNote;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.mynotes.NoteKeeperDatabaseContract.CourseInfoEntry;
-import com.example.mynotes.NoteKeeperDatabaseContract.NoteInfoEntry;
+import com.example.mynotes.VehicleNote.NoteKeeperDatabaseContract.CourseInfoEntry;
+import com.example.mynotes.VehicleNote.NoteKeeperDatabaseContract.NoteInfoEntry;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -206,7 +206,7 @@ public class DataManager {
         modules.add(new ModuleInfo("android_intents_m04", "IntentFilter data tests"));
         modules.add(new ModuleInfo("android_intents_m05", "Working with Platform Features Through Intents"));
 
-        return new CourseInfo("android_intents", "Android Programming with Intents", modules);
+        return new CourseInfo("android_intents", "Auto", modules);
     }
 
     private CourseInfo initializeCourse2() {
@@ -216,7 +216,7 @@ public class DataManager {
         modules.add(new ModuleInfo("android_async_m03", "Service lifecycle management"));
         modules.add(new ModuleInfo("android_async_m04", "Interacting with services"));
 
-        return new CourseInfo("android_async", "Android Async Programming and Services", modules);
+        return new CourseInfo("android_async", "Motorcycle", modules);
     }
 
     private CourseInfo initializeCourse3() {
@@ -224,18 +224,9 @@ public class DataManager {
         modules.add(new ModuleInfo("java_lang_m01", "Introduction and Setting up Your Environment"));
         modules.add(new ModuleInfo("java_lang_m02", "Creating a Simple App"));
         modules.add(new ModuleInfo("java_lang_m03", "Variables, Data Types, and Math Operators"));
-        modules.add(new ModuleInfo("java_lang_m04", "Conditional Logic, Looping, and Arrays"));
-        modules.add(new ModuleInfo("java_lang_m05", "Representing Complex Types with Classes"));
-        modules.add(new ModuleInfo("java_lang_m06", "Class Initializers and Constructors"));
-        modules.add(new ModuleInfo("java_lang_m07", "A Closer Look at Parameters"));
-        modules.add(new ModuleInfo("java_lang_m08", "Class Inheritance"));
-        modules.add(new ModuleInfo("java_lang_m09", "More About Data Types"));
-        modules.add(new ModuleInfo("java_lang_m10", "Exceptions and Error Handling"));
-        modules.add(new ModuleInfo("java_lang_m11", "Working with Packages"));
-        modules.add(new ModuleInfo("java_lang_m12", "Creating Abstract Relationships with Interfaces"));
-        modules.add(new ModuleInfo("java_lang_m13", "Static Members, Nested Types, and Anonymous Classes"));
 
-        return new CourseInfo("java_lang", "Java Fundamentals: The Java Language", modules);
+
+        return new CourseInfo("java_lang", "Boat", modules);
     }
 
     private CourseInfo initializeCourse4() {
@@ -251,7 +242,7 @@ public class DataManager {
         modules.add(new ModuleInfo("java_core_m09", "Adding Type Metadata with Annotations"));
         modules.add(new ModuleInfo("java_core_m10", "Persisting Objects with Serialization"));
 
-        return new CourseInfo("java_core", "Java Fundamentals: The Core Platform", modules);
+        return new CourseInfo("java_core", "Other", modules);
     }
 
     public int createNewNote(CourseInfo course, String noteTitle, String noteText) {

@@ -1,10 +1,12 @@
-package com.example.mynotes;
+package com.example.mynotes.VehicleNote;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
-import com.example.mynotes.NoteKeeperDatabaseContract.NoteInfoEntry;
+import com.example.mynotes.R;
+import com.example.mynotes.SettingsActivity;
+import com.example.mynotes.VehicleNote.NoteKeeperDatabaseContract.NoteInfoEntry;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import android.view.View;
@@ -194,7 +196,7 @@ public class MainActivity extends AppCompatActivity
             Intent searchIntent = new Intent(MainActivity.this, MainActivity.class);
             startActivity(searchIntent);
         } else if (id == R.id.nav_vehicles) {
-            Intent searchIntent = new Intent(MainActivity.this, NoteListActivity.class);
+            Intent searchIntent = new Intent(MainActivity.this, MainActivity.class);
             startActivity(searchIntent);
         } else if (id == R.id.nav_health) {
 

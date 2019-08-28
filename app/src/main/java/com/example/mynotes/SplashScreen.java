@@ -3,7 +3,7 @@ package com.example.mynotes;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class IdeaActivity extends AppCompatActivity {
+public class SplashScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

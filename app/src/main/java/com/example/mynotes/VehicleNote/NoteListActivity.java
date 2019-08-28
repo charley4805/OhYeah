@@ -1,18 +1,14 @@
-package com.example.mynotes;
+package com.example.mynotes.VehicleNote;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+
+import com.example.mynotes.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import android.database.sqlite.SQLiteDatabase;
-import android.database.Cursor;
-import android.content.Loader;
-import android.app.LoaderManager;
-import android.content.CursorLoader;
 
 
 import android.view.View;

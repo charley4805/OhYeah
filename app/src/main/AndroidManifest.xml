@@ -14,20 +14,20 @@
         tools:ignore="GoogleAppIndexingWarning">
 
         <activity
-            android:name=".IdeaActivity"
+            android:name=".SplashScreen"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".NoteActivity"
+            android:name=".VehicleNote.NoteActivity"
             android:label="Add New Vehicle Type"
             android:theme="@style/AppTheme.NoActionBar" />
        <activity
-            android:name=".NoteListActivity"
+            android:name=".VehicleNote.NoteListActivity"
             android:label="VEHICLES"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name=".MainActivity"
+            android:name=".VehicleNote.MainActivity"
             android:label="VEHICLES"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -40,10 +40,10 @@
         <activity
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".VehicleNote.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.mynotes.MainActivity" />
+                android:value="com.example.mynotes.VehicleNote.MainActivity" />
         </activity>
 
     </application>
